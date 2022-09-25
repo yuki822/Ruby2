@@ -1,0 +1,474 @@
+div a[alt="logo"]:hover {
+  opacity: 0.6;
+}
+a {
+  display: inline-block;
+  font-size: 12px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+span:last-child {
+  font-size: 7px;
+}
+img[alt="logo"] {
+  width: 185px;
+  height: 21px;
+  position: relative;
+  top: 6px;
+  left: 34px;
+}
+li {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+a[alt="navi1"],a[alt="navi2"],a[alt="navi3"],a[alt="navi4"],a[alt="navi5"],a[alt="navi6"] {
+  display: inline-block;
+  margin-right: 47px;
+  position: relative;
+  bottom: 58px;
+  left: 18px;
+}
+li a:hover {
+  opacity:0.6;
+}
+button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 1.0em 0;
+  padding: 0.9em 1.9em;
+  font-size: 1em;
+  background-color: #FFA500;
+  color: #FFF;
+  cursor: pointer;
+  border-radius: 50px;
+  border: 0;
+  transition: 0.3s;
+  position: relative;
+  bottom: 9px;
+}
+p {
+  position: relative;
+  left: 315px;
+  font-size: 38px;
+  bottom: 95px;
+  font-weight: bold;
+}
+img[alt="logo2"] {
+  position: relative;
+  bottom: 155px;
+  left: 315px;
+}
+img[alt="logo3"] {
+  width: 195px;
+  height: 195px;
+  position: relative;
+  bottom: 120px;
+  left: 320px;
+}
+img[alt="logo4"] {
+  position: relative;
+  bottom: 150px;
+  left: 325px;
+}
+button[alt="logo5"] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+  padding: 1.4em 3.3em;
+  font-size: 15px;
+  font-weight: lighter;
+  background-color: #FFA500;
+  color: #FFF;
+  cursor: pointer;
+  border-radius: 35px;
+  border: 0;
+  transition: 0.3s;
+  position: relative;
+  top: -60px;
+  right: 155px;
+}
+button[alt="logo5"]:hover {
+  opacity: 0.6;
+}
+button[alt="logo6"] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+  padding: 1.2em 1.7em;
+  font-size: 16px;
+  font-weight: lighter;
+  background-color: #FFFFFF;
+  color: #000000;
+  cursor: pointer;
+  border-radius: 35px;
+  border: 1px solid;
+  border-color: #C0C0C0;
+  transition: 0.3s;
+  position: relative;
+  top: -60px;
+  right: 140px;
+}
+img[alt="logo7"] {
+  position: relative;
+  left: 900px;
+  bottom: 465px;
+}
+p[alt="bunsyo"] {
+  position: relative;
+  bottom: 825px;
+  right: 50px;
+  font-size: 12px;
+  font-weight: lighter;
+  color: #C0C0C0;
+}
+a[alt="kiyaku"] {
+  font-size: 12px;
+  font-weight: lighter;
+  color: #C0C0C0;
+}
+div[alt="haikeisyoku"] {
+  position: relative;
+  bottom: 830px;
+  height: 380px;
+  background-color: #FFA500;
+}
+video {
+  width: 520px;
+  height: 292.5px;
+  margin: 45px 30px 45px 310px;
+}
+h1 {
+  position: relative;
+  bottom: 322px;
+  left: 865px;
+  font-weight: bold;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+h2 {
+  position: relative;
+  bottom: 330px;
+  left: 865px;
+  width: 490px;
+  height: 100px;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: lighter;
+}
+h3 {
+  position: relative;
+  bottom: 375px;
+  left: 890px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: lighter;
+}
+img[alt="矢印アイコン"] {
+  position: relative;
+  bottom: 330px;
+  left: 865px;
+  color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  overflow-x: hidden;
+}
+@media screen and (max-width: 480px) {
+img[alt="logo"] {
+  width: 220px;
+  height: 23px;
+  position: relative;
+  top: 23px;
+  left: 31px;
+  z-index: 7;
+}
+button {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	left: 650px;
+}
+::before , ::after {
+	box-sizing: inherit;
+}
+button {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	color: inherit;
+	vertical-align: middle;
+	text-align: inherit;
+	font: inherit;
+	-webkit-appearance: none;
+	appearance: none;
+}
+/**************** 以下、ハンバーガーボタンのスタイリング ****************/
+.btn {
+	/* ボタンの配置位置  */
+	position: fixed;
+	top: -5px;
+	right: 670px;
+	/* 最前面に */
+	z-index: 10;
+	/* ボタンの大きさ  */
+	width: 43px;
+	height: 45px;
+}
+/***** 真ん中のバーガー線 *****/
+.btn-line {
+	display: block;
+	/* バーガー線の位置基準として設定 */
+	position: relative;
+	top: 18px;
+	/* 線の長さと高さ */
+	width: 100%;
+	height: 4px;
+	/* バーガー線の色 */
+	background-color: #000000;
+	transition: .2s;
+}
+/***** 上下のバーガー線 *****/
+.btn-line::before , .btn-line::after {
+	content: "";
+	/* 基準線と同じ大きさと色 */
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	transition: .5s;
+}
+.btn-line::before {
+	/* 上の線の位置 */
+	transform: translateY(-15px);
+}
+.btn-line::after {
+	/* 下の線の位置 */
+	transform: translateY(15px);
+}
+/***** メニューオープン時 *****/
+.btn-line.open {
+	/* 真ん中の線を透明に */
+	background-color: transparent;
+}
+.btn-line.open::before , .btn-line.open::after {
+	content: "";
+	background-color: #333;
+	transition: .2s;
+}
+.btn-line.open::before {
+	/* 上の線を傾ける */
+	transform: rotate(45deg);
+}
+.btn-line.open::after {
+	/* 上の線を傾ける */
+	transform: rotate(-45deg);
+}
+/**************** ここまで、ハンバーガーボタンのスタイリング ****************/
+/**************** 以下、メニューのスタイリング ****************/
+.header-nav {
+	/* メニューを縦に */
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	/* メニューの位置マイナス指定で画面外に */
+	right: -70%;
+	width: 70%;
+	height: 100vh;
+	background-color: rgba(167, 148, 58, .7);
+	color: #efefef;
+	transition: .3s;
+}
+.hamburger-listitem {
+	/* メニューテキスト位置をリスト内中心に */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+.hamburger-listitem:hover {
+	background-color: rgba(255, 255, 255, .5);
+	color: #333;
+	cursor: pointer;
+	transition: .3s;
+}
+/***** メニューオープン時位置0にして画面内に *****/
+.header-nav.open {
+	position: absolute;
+	right: 0;
+}
+/* 487px以上はハンバーガーボタン非表示、ヘッダー固定 */
+@media screen and (min-width: 487px) {
+	.btn {
+		display: none;
+		background-color: #FFFFFF;
+		padding: 0;
+		margin: 0;
+	}
+	.header-nav {
+		/* メニューを横に */
+		display: flex;
+		flex-direction: row;
+		position: fixed;
+		top: 0;
+		right: 0;
+		width: 100%;
+		height: 100px;
+	}
+}
+/**************** ここまで、メニューのスタイリング ****************/
+/**************** 以上、ハンバーガーボタンのスタイリング **********/
+
+img[alt="logo7"] {
+  position: relative;
+  left: 0px;
+  bottom: 690px;
+  width: 150%;
+  height: 150%;
+
+}
+p {
+  position: relative;
+  left: 110px;
+  font-size: 37px;
+  bottom: -480px;
+  font-weight: bold;
+  z-index: 2;
+  margin-right: -150px;
+}
+img[alt="logo2"] {
+  width: 180px;
+  height: 180px;
+  position: relative;
+  bottom: -420px;
+  left: 30px;
+  z-index: 3;
+}
+img[alt="logo3"] {
+  width: 265px;
+  height: 265px;
+  position: relative;
+  bottom: -465px;
+  left: 40px;
+  z-index: 3;
+}
+img[alt="logo4"] {
+  width: 180px;
+  height: 180px;
+  position: relative;
+  bottom: -230px;
+  left: 510px;
+  z-index: 3;
+}
+button[alt="logo5"] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+  width: 650px;
+  height: 95px;
+  padding: 0;
+  font-size: 23px;
+  text-align: center;
+  background-color: #FFA500;
+  color: #FFF;
+  cursor: pointer;
+  border-radius: 60px;
+  border: 0;
+  transition: 0.3s;
+  position: relative;
+  top: 310px;
+  left:30px;
+  z-index: 4
+}
+p[alt="bunsyo"] {
+  margin: 0px -90px 0px -85px;
+  position: relative;
+  bottom: 460px;
+  right: 140px;
+  font-size: 18px;
+  font-weight: lighter;
+  color: #C0C0C0;
+}
+a[alt="kiyaku"] {
+  font-size: 16px;
+  font-weight: lighter;
+  position: relative;
+  bottom: 1px;
+  color: #C0C0C0;
+
+}
+div[alt="haikeisyoku"] {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  top: -450px;
+  width: 730px;
+  height: 790px;
+  background-color: #FFA500;
+}
+video {
+  position: relative;
+  right: -30px;
+  bottom: -25px;
+  width: 650px;
+  height: 405px;
+  margin: 0;
+}
+h1 {
+  position: relative;
+  bottom: 5px;
+  left: 30px;
+  font-weight: bold;
+  font-size: 50px;
+  color: #FFFFFF;
+}
+h2 {
+  width: 650px;
+  height: 80px;
+  position: relative;
+  left: 30px;
+  bottom: 25px;
+  font-size: 23px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+h3 {
+  position: relative;
+  bottom: 0px;
+  left: 45px;
+  color: #FFFFFF;
+  font-size: 23px;
+  font-weight: bold;
+}
+img[alt="矢印アイコン"] {
+  position: relative;
+  bottom: -53px;
+  left: 25px;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+  z-index: 6
+
+}
+.header-nav {
+  display: none;
+}
+button[alt="logo6"] {
+  display: none;
+}
+}
