@@ -1,0 +1,669 @@
+/**************** ページ全体の記述 ****************/
+html {
+  box-sizing: border-box;
+  display: block;
+  -webkit-text-size-adjust: 100%;
+  width: 100% !important;
+  height: auto !important;
+  margin: 0;
+  padding: 0;
+}
+/**************************************************/
+
+/************** サイト本体部分の領域指定 **********/
+body {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0;
+  padding: 0;
+}
+img[alt="logo8"] {
+  position: absolute;
+  box-sizing: border-box;
+  background-position: top;
+  width: 100%;
+  height: 815px;
+  padding: 100px 0px 30px 0px;
+  top: -120px;
+  -webkit-text-size-adjust: 100%;
+}
+/**************************************************/
+
+/**********　ヘッダー部分flex-boxの記述************/
+img[alt="logo7"] {
+  display: none;
+}
+div a[alt="logo"]:hover {
+  opacity: 0.6;
+}
+a {
+  display: inline-block;
+  font-size: 12px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+span:last-child {
+  font-size: 7px;
+}
+img[alt="logo1"] {
+  width: 185px;
+  height: 21px;
+  position: relative;
+  top: 21px;
+  left: 34px;
+  z-index: 1;
+}
+li {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+a[alt="navi1"],a[alt="navi2"],a[alt="navi3"],a[alt="navi4"],a[alt="navi5"] {
+  display: inline-block;
+  width: 60px;
+  height: 35px;
+  padding: 0;
+  margin: 0px 53px 0px 0px;
+  position: relative;
+  bottom: 20px;
+  left: 18px;
+  z-index: 1;
+}
+li a:hover {
+  opacity:0.6;
+}
+button[alt="navi6"] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0px 40px 0px 20px;
+  padding: 10px 20px;
+  font-size: 12px;
+  background-color: #FFA500;
+  color: #FFF;
+  cursor: pointer;
+  border-radius: 50px;
+  border: 0;
+  transition: 0.3s;
+  position: relative;
+  bottom: 20px;
+  left: 2px;
+  z-index: 1;
+}
+button[alt="navi6"]:hover {
+  opacity: 0.6;
+}
+/***************************************************/
+
+/************** メイン部分の領域指定 **************/
+main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/***************************************************/
+
+/************** メイン部分first-viewの領域指定と記述 **************/
+.First-view {
+  position: relative;
+  width: 100%;
+  height: 535px;
+  margin: 0;
+  padding: 0px 0px 33px 0px;
+  box-sizing: border-box；
+}
+.First-view_container {
+  position: relative;
+  max-width: 1140px;
+  height: 550px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: auto;
+}
+.First-view_content {
+  position: absolute;
+  width: 530px;
+  height: 420px;
+  box-sizing: border-box;
+  margin-bottom: 70px;
+  margin-right: auto;
+  margin-left: 0px;
+  
+}
+p {
+  display: block;
+  box-sizing: border-box;
+  width: 520px;
+  height: 110px;
+  margin: auto auto auto auto;
+  padding: 0;
+  position: absolute;
+  font-size: 38px;
+  font-weight: bold;
+  z-index: 1;
+}
+img[alt="logo2"] {
+  position: absolute;
+  top: 165px;
+  left: 0px;
+  z-index: 1;
+}
+img[alt="logo3"] {
+  width: 195px;
+  height: 195px;
+  position: absolute;
+  top: 130px;
+  left: 140px;
+  z-index: 1;
+}
+img[alt="logo4"] {
+  position: absolute;
+  top: 165px;
+  left: 350px;
+  z-index: 1;
+}
+button[alt="logo5"] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  background-color: #FFA500;
+  color: #FFF;
+  cursor: pointer;
+  border-radius: 50px;
+  border: 0;
+  transition: 0.3s;
+  position: absolute;
+  width: 305px;
+  height: 65px;
+  top: 350px;
+  left: 0px;
+  text-align: center;
+  z-index: 1;
+}
+button[alt="logo5"]:hover {
+  opacity: 0.6;
+}
+button[alt="logo6"] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  border: 1px solid;
+  border-color: #C0C0C0;
+  border-radius: 50px;
+  color: #000000;
+  cursor: pointer;
+  position: absolute;
+  width: 180px;
+  height: 65px;
+  top: 350px;
+  left: 320px;
+  z-index: 1;
+}
+p[alt="bunsyo"] {
+  box-sizing: border-box;
+  position: absolute;
+  top: 488px;
+  left: 0px;
+  width: 100%;
+  height: 51px;
+  margin-left: auto;
+  padding-left: 50px;
+  font-size: 11.3px;
+  font-weight: lighter;
+  color: #C0C0C0;
+  z-index: 1;
+  word-break: break-all;
+}
+a[alt="kiyaku"] {
+  font-size: 11.5px;
+  font-weight: lighter;
+  color: #C0C0C0;
+}
+/**********************************************************************/
+
+/*********　メイン部分About-wrapperの領域指定と記述　**************/
+.About-wrapper {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 381px;
+  margin: 0;
+  padding: 44px 0px 44px 0px;
+  background-color: #FFA500;
+}
+.About {
+  position: relative;
+  box-sizing: border-box;
+  width: 1040px;
+  height: 293px;
+  margin: 0px auto 0px auto;
+  padding: 0px 50px 0px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.About-title {
+  position: relative;
+  box-sizing: border-box;
+  width: 490px;
+  height: 210px;
+  left: 500px;
+  top: 42px;
+}
+video {
+  position: absolute;
+  width: 50%;
+  height: 293px;
+  left: 0px;
+}
+h1 {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0px;
+  top: -30px;
+  font-weight: bold;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+h2 {
+  position: absolute;
+  left: 0px;
+  top: 50px;
+  width: 490px;
+  height: 100px;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: lighter;
+}
+h3 {
+  position: absolute;
+  left: 5px;
+  top: 160px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: lighter;
+  padding: 0px 0px 0px 15px;
+}
+img[alt="矢印アイコン"] {
+  position: absolute;
+  left: 0px;
+  top: 182px;
+  color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+}
+/**************************************************/
+
+/****** 以下、レスポンシブ対応の記述******/
+/***********  レスポンシブ1080pxまで用 **************/
+@media screen and (max-width: 1080px) {
+::before , ::after {
+	box-sizing: inherit;
+}
+button {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	color: inherit;
+	vertical-align: middle;
+	text-align: inherit;
+	font: inherit;
+	-webkit-appearance: none;
+	appearance: none;
+}
+/**************** 以下、ハンバーガーボタンのスタイリング ****************/
+
+/***** 真ん中のバーガー線 *****/
+.btn-line {
+	display: block;
+	/* バーガー線の位置基準として設定 */
+	position: fixed;
+	top: 30px;
+	left: 95%;
+	/* 線の長さと高さ */
+	width: 30px;
+	height: 3px;
+	/* バーガー線の色 */
+	background-color: #000000;
+	transition: .2s;
+}
+/***** 上下のバーガー線 *****/
+.btn-line::before , .btn-line::after {
+	content: "";
+	/* 基準線と同じ大きさと色 */
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	transition: .5s;
+}
+.btn-line::before {
+	/* 上の線の位置 */
+	transform: translateY(-10px);
+}
+.btn-line::after {
+	/* 下の線の位置 */
+	transform: translateY(10px);
+}
+/**************** ここまで、ハンバーガーボタンのスタイリング ****************/
+
+/**************** 以上、ハンバーガーボタンのスタイリング **********/
+
+/***************************************************/
+img[alt="logo8"] {
+  position: absolute;
+  box-sizing: border-box;
+  background-position: top;
+  width: 100%;
+  height: 815px;
+  padding: 100px 0px 30px 0px;
+  top: -40px;
+}
+.First-view_container {
+  position: relative;
+  width: 100%;
+  height: 550px;
+  box-sizing: border-box;
+  top: 125px;
+  padding-left: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.inner-flex {
+  position: fixed;
+  box-sizing: border-box;
+  width: 100%;
+  height: 60px;
+
+  background-color: #FFFFFF;
+}
+.header-nav {
+  display: none;
+}
+button[alt="logo6"] {
+  text-align: center;
+}
+p[alt="bunsyo"] {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: auto;
+  padding-right: auto;
+  top: 480px;
+  left: -60px;
+}
+.About-wrapper {
+  position: relative;
+  box-sizing: border-box;
+  top: 120px;
+}
+}
+/***********  レスポンシブ767pxまで用 **************/
+@media screen and (max-width: 767px) {
+.inner-flex {
+  position: fixed;
+  max-width: 767px;
+  background-color: #FFFFFF;
+  z-index: 1;
+}
+.btn-line {
+	position: fixed;
+	left: 93%;
+}
+img[alt="logo8"] {
+  display: none;
+}
+.First-view_content {
+  position: absolute;
+  width: 690px;
+  height: 427px;
+  padding: 0;
+  top: 500px;
+  left: 5%;
+}
+.First-view_container {
+  background-image: url("https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp");
+  top: 60px;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  box-sizing: border-box;
+  position: absolute;
+  left: -50px;
+  top: 350px;
+  font-weight: bold;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+h2 {
+  box-sizing: border-box;
+  position: absolute;
+  left: -50px;
+  top: 450px;
+  width: 115%;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: lighter;
+}
+h3 {
+  position: absolute;
+  left: -45px;
+  top: 530px;
+  width: 400px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: lighter;
+  padding: 0px 0px 0px 15px;
+}
+img[alt="矢印アイコン"] {
+  position: absolute;
+  left: -50px;
+  top: 553px;
+}
+.About {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  margin: 0px auto 0px auto;
+  padding: 0px 50px 0px 50px;
+  display: flex;
+  align-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.About-wrapper {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 668px;
+  top: 600px;
+  padding: 40px 20px;
+}
+.About-title {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  left: 0px;
+}
+p[alt="bunsyo"] {
+  top: 1015px;
+  left: -10px;
+  padding-right: 30px;
+}
+p {
+  font-size: 25px;
+  left: 180px;
+  z-index: 2;
+}
+img[alt="logo2"] {
+  width: 200px;
+  height: auto;
+  left: -20px;
+  top: 125px;
+}
+img[alt="logo4"] {
+  width: 200px;
+  height: auto;
+  top: 125px;
+  left: 510px;
+}
+img[alt="logo3"] {
+  width: 305px;
+  height: auto;
+  top: 85px;
+  left: 193px;
+}
+button[alt="logo5"] {
+  left: -5px;
+  top: 420px;
+  width: 100%;
+}
+button[alt="logo6"] {
+  display: none;
+}
+video {
+  width: 100%;
+  height: auto;
+}
+}
+/***************************************************/
+
+/***********  レスポンシブ540pxまで用 **************/
+@media screen and (max-width: 540px) {
+  main {
+    height: 3000px;
+  }
+.inner-flex {
+  max-width: 540px;
+}
+.btn-line {
+  left: 88%;
+}
+.First-view_content {
+  display: block;
+  position: absolute;
+  top: 62%;
+  left: -0%;
+  width: 94%;
+  height: 100%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+img[alt="logo1"] {
+  width: 150px;
+  height: 17px;
+  left: 20px;
+  top: 15px;
+}
+img[alt="logo2"] {
+  position: absolute;
+  width: 27%;
+  height: auto;
+  top: 22%;
+  left: 2%;
+}
+img[alt="logo3"] {
+  position: absolute;
+  width: 40%;
+  height: auto;
+  top: 17%;
+  left: 31%;
+}
+img[alt="logo4"] {
+  position: absolute;
+  width: 27%;
+  height: auto;
+  top: 22%;
+  left: 73%;
+}
+p {
+  position: absolute;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 23px;
+  text-align: center;
+  top: 0px;
+  left: 0%
+}
+button[alt="logo5"] {
+  display: block;
+  width: 96%;
+  left: 2%;
+  top: 55%;
+}
+.First-view_container {
+  display: block;
+  box-sizing: border-box;
+  background-size: 100% 103%;
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  position: relative;
+  top: 60px;
+  padding: 0;
+  margin: 0;
+}
+p[alt="bunsyo"] {
+  top: 135%;
+  left: -3%;
+  width: 100%;
+  height: auto;
+  text-align: left;
+  padding-left: auto;
+  padding-right: auto;
+}
+.About-wrapper {
+  top: 9%;
+}
+.About-title {
+  position: relative;
+  top: 230%;
+  left: 0%;
+  width: 100%;
+  height: auto;
+}
+h1 {
+  position: absolute;
+  box-sizing: border-box;
+  display: block;
+  top: 220px;
+  width: 135%;
+  height: auto;
+  padding-bottom: 20%;
+  font-size: 33.5px;
+  word-break: break-all;
+}
+h2 {
+  display: block;
+  box-sizing: border-box;
+  top: 360px;
+  width: 135%;
+  height: auto;
+}
+h3 {
+  display: block;
+  box-sizing: border-box;
+  top: 480px;
+  width: 135%;
+}
+img[alt="矢印アイコン"] {
+  top: 503px;
+}
+}
