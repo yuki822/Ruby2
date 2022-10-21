@@ -5,7 +5,7 @@ var is_calc = false;
 
 // 初期表示
 window.onload = function () {
-  result = document.getElementById('result');
+  result = document.getElementById("result");
 };
 
 // Cキー押下
